@@ -32,35 +32,43 @@ cd ai-gmail-assistant
 
 
 
-
-### 2. Setup Backend
 ```
+### 2. Setup Backend
+```bash
 cd backend
 npm install
-
-Create .env file:
-
+```
+### Create .env file:
+```bash
 OPENAI_API_KEY=your_api_key_here
 PORT=5000
-
+```
 Start backend:
-
+```bash
 node src/server.js
-3. Setup Extension
+```
+### 3. Setup Extension
+```bash
 cd ../extension
 npm install
 npm run build
-4. Load in Chrome
+```
+### 4. Load in Chrome
+```bash
 Open chrome://extensions/
 Enable Developer Mode
 Click Load unpacked
 Select extension/build
-🚀 Usage
+```
+### 🚀 Usage
+```bash
 Open Gmail
 Open any email
 Click extension icon
 Generate reply or summary
-📁 Structure
+```
+### 📁 Structure
+```bash
 ai-gmail-assistant/
 ├── extension/
 ├── backend/
