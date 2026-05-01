@@ -28,11 +28,13 @@ AI-powered Chrome extension that helps users generate smart email replies and su
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/kaif8077/ai-gmail-assistant.git
-cd ai-gmail-assistant ```
+cd ai-gmail-assistant
 
 
 
-2. Setup Backend
+
+### 2. Setup Backend
+```
 cd backend
 npm install
 
